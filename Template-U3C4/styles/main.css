@@ -1,0 +1,33 @@
+#container{
+    display : flex;
+  
+  }
+  #sidebar{
+    flex: 2;
+    border: 1px solid black;
+  }
+  #main{
+    flex: 8;
+    border: 1px solid black;
+  }
+  #card{
+   display : flex;
+   padding:  20px;
+  }
+  #smallcard1{
+    border: 1px solid black;
+    flex: 3;
+    
+  }
+  #smallcard2{
+    border: 1px solid black;
+    flex: 3;
+  }
+  #smallcard3{
+    border: 1px solid black;
+    flex: 3;
+  }
+  #smallcard3>img{
+    width: 100%;
+    height :100%
+  }
